@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Eligir 2 metodos</title>
+</head>
+<body>
+    <section>
+        <div>
+        <form action="#">
+                <label for="lang">Elija 2 metodos de verificacion</label>
+                <select name="metodos" id="metodos" multiple>
+                  <option value="correo">Correo</option>
+                  <option value="sms">SMS</option>
+                  <option value="llamada">Llamada</option>
+                  <option value="tokentemporal">Token Temporal</option>
+                </select>
+                <input type="submit" value="Enviar" />
+        </form>
+    <form id="codigoForm">
+            <label>Ingrese el codigo</label>
+            <input type="password" placeholder="..."id="codigo" required autofocus>
+            <input type="submit" value="verificar">
+    </form>
+            <p><a href="pagarApp.html">Volver</a></p>
+        </div>
+    </section>
+    <p><a href="pagarApp.html">Volver</a></p>
+    <script src="JAVASCRIPT/verificacion2pasos.js"></script>
+</body>
+</html>

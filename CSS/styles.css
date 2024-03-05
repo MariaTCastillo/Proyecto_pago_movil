@@ -78,7 +78,7 @@ section form input{
 }
 
 section form input[type= 'submit']{
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     background-color: #fff;
     color: black;
     font-family: var(--font-mono);
@@ -107,7 +107,7 @@ section button{
     border: none;
     padding: 0.5cm 1cm;
     border-radius: 9px ;
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     font-size: 1cm;
 }
 
@@ -116,7 +116,28 @@ section button{
 section h3{
     text-align: center;
     width: 100%;
+    margin-top: 1cm;
     margin-bottom: 0cm;
     font-size: 1.0cm;
     color: #eee;
 }
+
+/*Verificacion en 2 pasos*/
+section h4{
+    text-align: center;
+    width: 100%;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    font-size: 0.5cm;
+    color: #eee;
+}
+
+section h6{ 
+        text-align: center;
+        width: 100%;
+        margin-top: 0cm;
+        margin-bottom: 0cm;
+        font-size: 0.5cm;
+        color: #eee;
+}
+
