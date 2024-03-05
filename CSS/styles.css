@@ -89,7 +89,7 @@ section form input[type='submit']:active{
 }
 
 section p{
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     color: #eee;
 }
 
@@ -109,4 +109,14 @@ section button{
     border-radius: 9px ;
     margin-top: 1.5cm;
     font-size: 1cm;
+}
+
+/*Pagar APP*/
+
+section h3{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0cm;
+    font-size: 1.0cm;
+    color: #eee;
 }

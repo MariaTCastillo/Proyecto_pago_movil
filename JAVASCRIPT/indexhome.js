@@ -10,3 +10,8 @@ logout.addEventListener('click', ()=>{
     localStorage.removeItem('login_success')
     window.location.href = 'login.html'
 })
+
+pagar.addEventListener('click', ()=>{
+    alert('A continuacion rellene los datos de pago')
+    window.location.href = 'pagarApp.html'
+})
