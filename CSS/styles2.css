@@ -1,11 +1,66 @@
-body{
-    background-color: black;
+:root{
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono','Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 
+    'Droid Sans Mono', 'Courier New', monospace;
 }
-.contenedor{
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-mono);
+    background-image: url("../IMAGENES/Telefono AppPM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+}
+.SMS_contenedor{
     position: relative;
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: black;
+}
+.SMS_contenido{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap; 
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 1cm;
+}
+form{
+    padding: 0.1cm;
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 900px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255);
+    background-color: #eee;
+}
+
+form legend{
+    width: 100%;
+    padding: 0.2cm;
+    margin-bottom: 0.5cm;
+    color: #000000;
+    font-family: var(--font-mono);
+}
+
+form input{
+    width: 100%;
+    margin-bottom: 0cm;
+    padding-top: 1cm;
+    padding-bottom: 6cm;
+    padding-left: 6cm;
+    padding-right: 0cm;
+    border-radius: 9px;
+    border: ;
+    outline-color: #FFC212;
+    background-color: #eee;
 }
 
