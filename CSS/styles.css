@@ -1,0 +1,102 @@
+:root{
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono','Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 
+    'Droid Sans Mono', 'Courier New', monospace;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-mono);
+    background-image: url("TelefonoAppPM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-attachment: fixed; */
+    background-color: white;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 1cm;
+}
+
+section h1{
+    font-size: 3cm;
+    color: #eee;
+}
+
+section h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1cm;
+    font-size: 2.5cm;
+    color: #eee;
+}
+
+section form{
+    padding: 1.5cm;
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,.1);
+}
+
+section form label{
+    width: 100%;
+    padding: 0.2cm;
+    margin-bottom: 0.5cm;
+    color: #eee;
+}
+
+section form input{
+    width: 100%;
+    margin-bottom: 1cm;
+    padding: 0.8cm;
+    border-radius: 9px;
+    border: none;
+    outline-color: #FFC212;
+    background-color: #eee;
+}
+
+section form input[type= 'submit']{
+    margin-top: 1.5cm;
+    background-color: #fff;
+    color: black;
+    font-family: var(--font-mono);
+}
+
+section form input[type='submit']:active{
+    transform: scale(0.97);
+}
+
+section p{
+    margin-top: 1.5cm;
+    color: #eee;
+}
+
+section p a{
+    text-decoration: none;
+    color: #FFC212;
+}
+
+/* Home */
+
+section button{
+    background-color: #fff;
+    color: black;
+    font-family: var(--font-mono);
+    border: none;
+    padding: 0.5cm 1cm;
+    border-radius: 9px ;
+    margin-top: 1.5cm;
+    font-size: 1cm;
+}
