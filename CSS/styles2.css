@@ -11,19 +11,21 @@
 
 body {
     font-family: var(--font-mono);
-    background-image: url("../IMAGENES/Telefono AppPM.png");
+    background-image: url("../IMAGENES/Telefono SMS.png.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(0, 0, 0);
 }
-.SMS_contenedor{
-    position: relative;
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    height: 100vh;
     align-items: center;
     justify-content: center;
-    display: flex;
-    background-color: black;
+    flex-direction: column; 
+    padding: 1cm;
 }
-.SMS_contenido{
+div{
     display: flex;
     position: absolute;
     flex-wrap: wrap; 
@@ -42,7 +44,6 @@ form{
     border: 2px solid rgba(255, 255, 255);
     background-color: #eee;
 }
-
 form legend{
     width: 100%;
     padding: 0.2cm;
@@ -50,7 +51,6 @@ form legend{
     color: #000000;
     font-family: var(--font-mono);
 }
-
 form input{
     width: 100%;
     margin-bottom: 0cm;
@@ -59,7 +59,7 @@ form input{
     padding-left: 6cm;
     padding-right: 0cm;
     border-radius: 9px;
-    border: ;
+    border: black;
     outline-color: #FFC212;
     background-color: #eee;
 }
