@@ -1,10 +1,23 @@
-body{
-    background-color: black;
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-.contenedor{
-    position: relative;
+
+body {
+    font-family: var(--font-mono);
+    background-image: url("../IMAGENES/Telefono con fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-attachment: fixed; */
+    background-color: rgb(0, 0, 0);
+}
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    height: 100vh;
     align-items: center;
     justify-content: center;
-    display: flex;
-    background-color: black;
+    flex-direction: column; 
+    padding: 1cm;
 }

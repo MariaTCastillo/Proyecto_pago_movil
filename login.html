@@ -6,17 +6,24 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Login</title>
 </head>
-<body>
+<body>  
     <section>
-        <h2>Login</h2>
-        <form id="loginForm">
-        <label>Usuario</label>
-        <input type="text" placeholder="..."id="Usuario" required autofocus>
-        <label>Contraseña</label>
-        <input type="password" placeholder="..."id="password" required>
-        <input type="submit" value="Ingresar">
-        </form>
-        <p>No tienes una cuenta? <a href="signup.html">Registro</a></p>
+        <img src="IMAGENES/Telefono AppPM.png" alt="App Pago Movil" usemap="#app">
+        <map name="app">
+            <area shape="poly" coords="179,821,162,837,179,849" href="signup.html" alt="Boton de regreso">
+            <area shape="poly" coords="448,823,430,835,430,851,467,851,467,835" href="Index.html" alt="Boton de inicio">
+        </map>
+        <div>
+            <h2>Login</h2>
+            <form id="loginForm">
+            <label>Usuario</label>
+            <input type="text" placeholder="..."id="Usuario" required autofocus>
+            <label>Contraseña</label>
+            <input type="password" placeholder="..."id="password" required>
+            <input type="submit" value="Ingresar">
+            </form>
+            <p>No tienes una cuenta? <a href="signup.html">Registro</a></p>
+        </div>
     </section>
     <script src="JAVASCRIPT/login.js"></script>
 </body>
