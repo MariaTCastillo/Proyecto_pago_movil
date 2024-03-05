@@ -52,7 +52,7 @@ section h2{
 }
 
 section form{
-    padding: 1.0cm;
+    padding: 0.5cm;
     display: flex;
     flex-wrap: wrap; 
     max-width: 400px;
@@ -63,7 +63,7 @@ section form{
 section form label{
     width: 100%;
     padding: 0.2cm;
-    margin-bottom: 0.5cm;
+    margin-bottom: 0.1cm;
     color: #eee;
 }
 
