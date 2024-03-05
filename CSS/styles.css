@@ -141,3 +141,17 @@ section h6{
         color: #eee;
 }
 
+/*QR*/
+.qr {
+    width: 350px;
+    height: 350px;
+/*transition-duration: 3s;
+    opacity: 0%; */
+}
+
+.huella {
+    width: 350px;
+    height: 350px;
+/*transition-duration: 3s;
+    opacity: 0%; */
+}
