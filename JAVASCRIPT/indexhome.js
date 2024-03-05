@@ -12,6 +12,6 @@ logout.addEventListener('click', ()=>{
 })
 
 pagar.addEventListener('click', ()=>{
-    alert('A continuacion rellene los datos de pago')
+    alert('A continuacion rellena los datos de pago')
     window.location.href = 'pagarApp.html'
 })
