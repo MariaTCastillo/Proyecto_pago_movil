@@ -1,4 +1,4 @@
-const pagarform2 = document.querySelector('#pagarForm')
+const pagarform2 = document.querySelector('#pagarForm2')
 pagarform2.addEventListener('submit', (e)=>{
     e.preventDefault()
     var monto= document.querySelector('#monto').value
@@ -16,6 +16,6 @@ pagarform2.addEventListener('submit', (e)=>{
     } else {
         alert('Saldo Insuficiente! No se puede realizar el pago.')
     }
-    Datos.push({monto: monto})
+    Datos.push({telefono : telefono, banco: banco, cedularif: cedularif, monto: monto})
     localStorage.setItem('datos', JSON.stringify(Datos))
 })
