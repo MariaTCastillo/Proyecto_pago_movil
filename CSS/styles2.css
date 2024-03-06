@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(0, 0, 0);
+    position: relative;
 }
 section{
     display: flex;
@@ -29,24 +30,32 @@ div{
     display: flex;
     position: absolute;
     flex-wrap: wrap; 
-    height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column; 
     padding: 1cm;
+    position: absolute;
 }
 form{
     padding: 0.1cm;
     display: flex;
     flex-wrap: wrap; 
-    max-width: 900px;
+    width: 400px;
+    height: 690px;
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255);
+    border: 20px solid rgba(255, 255, 255);
     background-color: #eee;
+}
+section img{
+    background-image: url(../IMAGENES/usuario.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    
+
 }
 form legend{
     width: 100%;
-    padding: 0.2cm;
+    padding-left: 2.0cm;
     margin-bottom: 0.5cm;
     color: #000000;
     font-family: var(--font-mono);
@@ -54,13 +63,19 @@ form legend{
 form input{
     width: 100%;
     margin-bottom: 0cm;
-    padding-top: 1cm;
-    padding-bottom: 6cm;
-    padding-left: 6cm;
-    padding-right: 0cm;
-    border-radius: 9px;
-    border: black;
+    padding: 0;
+    border-radius: 5px;
+    
     outline-color: #FFC212;
     background-color: #eee;
 }
 
+section p{
+    margin-top: 0.5cm;
+    color: #eee;
+}
+
+section p a{
+    text-decoration: none;
+    color: #000000;
+}
