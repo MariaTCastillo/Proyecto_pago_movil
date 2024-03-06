@@ -6,6 +6,32 @@ pagoMovil.addEventListener('submit', (e)=>{
     let docIdentidad = document.querySelector('#Documento de Identidad del destinatario').value
     let monto = document.querySelector('#Monto de la transacción').value   
 
+
+    const cantidadCodigo = 4;
+    const cantidadtelefono = 11;
+    const cantidadocIdentidad = 8;
+    
+    function validarCodigo(codigo, cantidadCodigo) {
+        if(codigo.length > cantidadCodigo || codigo.length < cantidadCodigo) {
+            console.log("Dato invalido.");
+        } else {
+            console.log("Dato valido.");
+        }
+    }
+    function validarTelefono(telefono, cantidadtelefono) {
+        if(telefono.length > cantidadtelefono || telefono.length < cantidadtelefono) {
+            console.log("Dato invalido.");
+        } else {
+            console.log("Dato valido.");
+        }
+    }
+    function validarDocIdentidad(docIdentidad, cantidadocIdentidad) {
+        if(docIdentidad.length > cantidadocIdentidad || docIdentidad.length < cantidadocIdentidad) {
+            console.log("Dato invalido.");
+        } else {
+            console.log("Dato valido.");
+        }
+    }
     let saldo = 1000.00;
     if(saldo >= monto){
         let saldoFinal = 0;
