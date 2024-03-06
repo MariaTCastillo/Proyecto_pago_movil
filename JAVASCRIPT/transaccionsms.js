@@ -8,7 +8,7 @@ pagoMovil.addEventListener('submit', (e)=>{
 
 let saldo = 1000.00;
 if(saldo >= monto){
-    var saldoFinal = 0;
+    let saldoFinal = 0;
     saldoFinal = saldo - monto;
 
     alert('Pago Exitoso!')
