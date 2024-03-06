@@ -1,8 +1,11 @@
 let pagoMovil = document.querySelector('#PagoMovil');
 pagoMovil.addEventListener('submit'), (e)=>{
     e.preventDefault()
-    let transaccion = document.querySelector('#Transaccion').value
-    String.split('-')
+    let codigo = document.querySelector('#Codigo del banco del destinatario').value
+    let telefono = document.querySelector('#Telefono del destinatario').value
+    let docIdentidad = document.querySelector('#Documento de Identidad del destinatario').value
+    let monto = document.querySelector('#Monto de la transacción').value
+    
 }
 
 
@@ -29,12 +32,7 @@ function obtener_localstorage(){
 
 function guardar_localstorage(){
 
-    let transaccion = {
-        codigo: "0000",
-        telefono: "00000000000",
-        docIdentidad: "00000000",
-        monto: "0000.00",
-    }
+    
     if (transaccion)
     localStorage.setItem("Codigo del banco del destinatario", );
     localStorage.setItem("Telefono del destinatario", telefono);

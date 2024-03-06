@@ -76,12 +76,10 @@ section form input[type='submit']:active{
     transform: scale(0.97);
 }
 
-section p{
-    margin-top: 0.5cm;
-    color: #eee;
-}
-
-section p a{
+form p a{
+    padding-left: 2.0cm;
     text-decoration: none;
     color: #000000;
+    font-size: 0.4cm;
+    font-family: var(--font-mono);
 }
