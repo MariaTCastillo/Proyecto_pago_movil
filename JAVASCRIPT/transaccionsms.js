@@ -6,15 +6,15 @@ pagoMovil.addEventListener('submit', (e)=>{
     let docIdentidad = document.querySelector('#Documento de Identidad del destinatario').value
     let monto = document.querySelector('#Monto de la transacción').value   
 
-let saldo = 1000.00;
-if(saldo >= monto){
-    let saldoFinal = 0;
-    saldoFinal = saldo - monto;
+    let saldo = 1000.00;
+    if(saldo >= monto){
+        let saldoFinal = 0;
+        saldoFinal = saldo - monto;
 
-    alert('Pago Exitoso!')
-    alert('A continuacion su comprobante de pago')
-    alert( `Pago Exitoso Codigo de transaccion: 764893567 Telefono: ${telefono}  Banco: ${codigo}  CI: ${docIdentidad}  Monto: ${monto}`)
-} else {
-    alert('Saldo Insuficiente! No se puede realizar el pago.')
-}
+        alert('Pago Exitoso!')
+        alert('A continuacion su comprobante de pago')
+        alert( `Pago Exitoso Codigo de transaccion: 764893567 Telefono: ${telefono}  Banco: ${codigo}  CI: ${docIdentidad}  Monto: ${monto}`)
+    } else {
+        alert('Saldo Insuficiente! No se puede realizar el pago.')
+    }
 })
