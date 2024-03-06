@@ -1,37 +1,32 @@
-let pagoMovil = document.querySelector('#PagoMovil')
+let pagoMovil = document.querySelector('#pagoMovil')
 pagoMovil.addEventListener('submit', (e)=>{
     e.preventDefault()
-    let codigo = document.querySelector('#Codigo del banco del destinatario').value
-    let telefono = document.querySelector('#Telefono del destinatario').value
-    let docIdentidad = document.querySelector('#Documento de Identidad del destinatario').value
-    let monto = document.querySelector('#Monto de la transacción').value   
+    let codigo = document.querySelector('#codigo').value
+    let telefono = document.querySelector('#telefono').value
+    let docIdentidad = document.querySelector('#documento').value
+    let monto = document.querySelector('#monto').value   
 
 
     const cantidadCodigo = 4;
     const cantidadtelefono = 11;
     const cantidadocIdentidad = 8;
     
-    function validarCodigo(codigo, cantidadCodigo) {
-        if(codigo.length > cantidadCodigo || codigo.length < cantidadCodigo) {
-            console.log("Dato invalido.");
+        if(codigo.length = cantidadCodigo) {
+
         } else {
-            console.log("Dato valido.");
+            alert('Dato invalido.');
         }
-    }
-    function validarTelefono(telefono, cantidadtelefono) {
-        if(telefono.length > cantidadtelefono || telefono.length < cantidadtelefono) {
-            console.log("Dato invalido.");
+        if(telefono.length = cantidadtelefono) {
+  
         } else {
-            console.log("Dato valido.");
+            alert('Dato invalido.');
         }
-    }
-    function validarDocIdentidad(docIdentidad, cantidadocIdentidad) {
-        if(docIdentidad.length > cantidadocIdentidad || docIdentidad.length < cantidadocIdentidad) {
-            console.log("Dato invalido.");
+
+        if(docIdentidad.length = cantidadocIdentidad) {
+           
         } else {
-            console.log("Dato valido.");
+            alert('Dato invalido.');
         }
-    }
     let saldo = 1000.00;
     if(saldo >= monto){
         let saldoFinal = 0;
