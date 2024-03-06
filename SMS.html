@@ -14,7 +14,19 @@
       <form action="JAVASCRIPT/transaccionsms.js" method="post" id="PagoMovil">
         <fieldset>  
           <legend>2661</legend>
-                <input type="text" id="Transaccion" name="Transaccion" placeholder="Enviar mensaje de texto">
+                <label>Banco</label>
+                <input type="text" id="Codigo del banco del destinatario" name="Codigo del banco del destinatrario" required>
+                <label>Telefono</label>
+                <input type="text" id="Telefono del destinatario" name="Telefono del destinatario" required>
+                <label>Cedula/Rif</label>
+                  <select>
+                      <option>V</option>
+                      <option>J</option>
+                  </select>
+                <input type="text" id="Documento de Identidad del destinatario" name="Documento de Identidad del destinatario" required>
+                <label>Monto</label>
+                <input type="text" id="Monto de la transacción" name="Monto de la transacción">
+                <input type="submit" value="Enviar mensaje de texto">
         </fieldset>
         </form>
     </div>

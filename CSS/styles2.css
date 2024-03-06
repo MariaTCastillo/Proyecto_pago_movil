@@ -43,31 +43,37 @@ form{
     width: 400px;
     height: 690px;
     border-radius: 20px;
-    border: 20px solid rgba(255, 255, 255);
-    background-color: #eee;
-}
-section img{
-    background-image: url(../IMAGENES/usuario.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    
-
+    border: 20px solid #7766c6;
+    background-color: #f9b0c3;
 }
 form legend{
+    text-align: center;
     width: 100%;
-    padding-left: 2.0cm;
-    margin-bottom: 0.5cm;
+    margin-top: 1cm;
+    margin-bottom: 0cm;
+    font-size: 1.0cm;
     color: #000000;
+}
+
+section form input{
+    width: 100%;
+    margin-bottom: 0.5cm;
+    padding: 0.8cm;
+    border-radius: 9px;
+    border: none;
+    outline-color: #FFC212;
+    background-color: #ffffff;
+}
+
+section form input[type= 'submit']{
+    margin-top: 0.5cm;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
     font-family: var(--font-mono);
 }
-form input{
-    width: 100%;
-    margin-bottom: 0cm;
-    padding: 0;
-    border-radius: 5px;
-    
-    outline-color: #FFC212;
-    background-color: #eee;
+
+section form input[type='submit']:active{
+    transform: scale(0.97);
 }
 
 section p{

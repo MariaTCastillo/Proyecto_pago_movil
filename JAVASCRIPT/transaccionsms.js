@@ -2,6 +2,7 @@ let pagoMovil = document.querySelector('#PagoMovil');
 pagoMovil.addEventListener('submit'), (e)=>{
     e.preventDefault()
     let transaccion = document.querySelector('#Transaccion').value
+    String.split('-')
 }
 
 
